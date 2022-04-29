@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+body {
+	background: url(../imagens/city.jpg) no-repeat center center fixed;
+	background-size: cover;
+}
+img {
+	float: left;
+	margin: 20px;
+	width: 200px;
+}
+li {
+	text-transform: uppercase;
+	color: white;
+	position: top;
+	margin: 20px;
+	float: right;
+	list-style: none;
+
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: yellow;
+}
+
+p {
+	color: white;
+}
+button {
+	color: black;
+	text-transform: uppercase;
+	font-weight: bolder;
+	background-color: #1e90ff;
+	padding: 10px;
+	border-radius: 5px;
+}
+button:hover {
+	color: white;
+	background-color: #00bfff;
+}
+input {
+	padding:10px;
+	border-radius: 10px 15px;
+}
+.container {
+	clear: both;
+	text-align: center;
+}
+.container .nome h1 {
+	font-size: 40px;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+}
+.container .nome h5 {
+	font-size: 20px;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+}
+#sobre p {
+	max-width: 600px;
+	margin: 0 auto;
+}
